@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043AF5A51FD8277F003A4742 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AF5A41FD8277F003A4742 /* MainViewController.swift */; };
+		046C37071FD8E6BB000E361E /* MainFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C37061FD8E6BB000E361E /* MainFeatureCell.swift */; };
+		046C37091FD8E796000E361E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C37081FD8E796000E361E /* SampleData.swift */; };
 		04BD10191FD7B2F300ADB6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD10181FD7B2F300ADB6CC /* AppDelegate.swift */; };
-		04BD101B1FD7B2F300ADB6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD101A1FD7B2F300ADB6CC /* ViewController.swift */; };
 		04BD101E1FD7B2F300ADB6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD101C1FD7B2F300ADB6CC /* Main.storyboard */; };
 		04BD10201FD7B2F300ADB6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BD101F1FD7B2F300ADB6CC /* Assets.xcassets */; };
 		04BD10231FD7B2F300ADB6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD10211FD7B2F300ADB6CC /* LaunchScreen.storyboard */; };
+		04E44C371FD8F63A0090B936 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E44C361FD8F63A0090B936 /* ObjectDetectionViewController.swift */; };
+		04E44C3C1FD8FD6A0090B936 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04E44C3B1FD8FD6A0090B936 /* Inceptionv3.mlmodel */; };
+		04E44C3F1FD907B40090B936 /* RealTimeDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E44C3E1FD907B40090B936 /* RealTimeDetectionViewController.swift */; };
+		04E44C441FD908910090B936 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E44C411FD908900090B936 /* VideoCameraType.swift */; };
+		04E44C451FD908910090B936 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E44C421FD908900090B936 /* VideoCapture.swift */; };
+		04E44C461FD908910090B936 /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E44C431FD908900090B936 /* AVCaptureDevice+Extension.swift */; };
+		04E9C04E1FDAD22B0099D2C9 /* FacialAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9C04D1FDAD22B0099D2C9 /* FacialAnalysisViewController.swift */; };
+		04E9C0521FDAF3AF0099D2C9 /* CNNEmotions.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04E9C04F1FDAF3AF0099D2C9 /* CNNEmotions.mlmodel */; };
+		04E9C0531FDAF3AF0099D2C9 /* GenderNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04E9C0501FDAF3AF0099D2C9 /* GenderNet.mlmodel */; };
+		04E9C0541FDAF3AF0099D2C9 /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04E9C0511FDAF3AF0099D2C9 /* AgeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043AF5A41FD8277F003A4742 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		046C37061FD8E6BB000E361E /* MainFeatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MainFeatureCell.swift; sourceTree = "<group>"; };
+		046C37081FD8E796000E361E /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		04BD10151FD7B2F300ADB6CC /* ai_11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ai_11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD10181FD7B2F300ADB6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04BD101A1FD7B2F300ADB6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04BD101D1FD7B2F300ADB6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BD101F1FD7B2F300ADB6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BD10221FD7B2F300ADB6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BD10241FD7B2F300ADB6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E44C361FD8F63A0090B936 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
+		04E44C3B1FD8FD6A0090B936 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ai_11/ML_Model/Inceptionv3.mlmodel; sourceTree = SOURCE_ROOT; };
+		04E44C3E1FD907B40090B936 /* RealTimeDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealTimeDetectionViewController.swift; sourceTree = "<group>"; };
+		04E44C411FD908900090B936 /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
+		04E44C421FD908900090B936 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		04E44C431FD908900090B936 /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		04E9C04D1FDAD22B0099D2C9 /* FacialAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FacialAnalysisViewController.swift; sourceTree = "<group>"; };
+		04E9C04F1FDAF3AF0099D2C9 /* CNNEmotions.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CNNEmotions.mlmodel; path = MLModels/CNNEmotions.mlmodel; sourceTree = SOURCE_ROOT; };
+		04E9C0501FDAF3AF0099D2C9 /* GenderNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GenderNet.mlmodel; path = MLModels/GenderNet.mlmodel; sourceTree = SOURCE_ROOT; };
+		04E9C0511FDAF3AF0099D2C9 /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = AgeNet.mlmodel; path = MLModels/AgeNet.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +78,12 @@
 		04BD10171FD7B2F300ADB6CC /* ai_11 */ = {
 			isa = PBXGroup;
 			children = (
+				04E44C401FD908900090B936 /* VideoCapture */,
+				04E44C3D1FD8FD750090B936 /* ML_Model */,
+				04E44C3A1FD8F6680090B936 /* Model */,
+				04E44C391FD8F6540090B936 /* Custom Views */,
+				04E44C381FD8F6420090B936 /* View Controller */,
 				04BD10181FD7B2F300ADB6CC /* AppDelegate.swift */,
-				04BD101A1FD7B2F300ADB6CC /* ViewController.swift */,
 				04BD101C1FD7B2F300ADB6CC /* Main.storyboard */,
 				04BD101F1FD7B2F300ADB6CC /* Assets.xcassets */,
 				04BD10211FD7B2F300ADB6CC /* LaunchScreen.storyboard */,
@@ -63,6 +91,54 @@
 			);
 			path = ai_11;
 			sourceTree = "<group>";
+		};
+		04E44C381FD8F6420090B936 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043AF5A41FD8277F003A4742 /* MainViewController.swift */,
+				04E44C361FD8F63A0090B936 /* ObjectDetectionViewController.swift */,
+				04E44C3E1FD907B40090B936 /* RealTimeDetectionViewController.swift */,
+				04E9C04D1FDAD22B0099D2C9 /* FacialAnalysisViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		04E44C391FD8F6540090B936 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				046C37061FD8E6BB000E361E /* MainFeatureCell.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		04E44C3A1FD8F6680090B936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046C37081FD8E796000E361E /* SampleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E44C3D1FD8FD750090B936 /* ML_Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E9C0511FDAF3AF0099D2C9 /* AgeNet.mlmodel */,
+				04E9C04F1FDAF3AF0099D2C9 /* CNNEmotions.mlmodel */,
+				04E9C0501FDAF3AF0099D2C9 /* GenderNet.mlmodel */,
+				04E44C3B1FD8FD6A0090B936 /* Inceptionv3.mlmodel */,
+			);
+			path = ML_Model;
+			sourceTree = "<group>";
+		};
+		04E44C401FD908900090B936 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				04E44C411FD908900090B936 /* VideoCameraType.swift */,
+				04E44C421FD908900090B936 /* VideoCapture.swift */,
+				04E44C431FD908900090B936 /* AVCaptureDevice+Extension.swift */,
+			);
+			path = VideoCapture;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -91,7 +167,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = com.JunHyuk;
 				TargetAttributes = {
 					04BD10141FD7B2F300ADB6CC = {
@@ -136,8 +212,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BD101B1FD7B2F300ADB6CC /* ViewController.swift in Sources */,
+				04E9C0521FDAF3AF0099D2C9 /* CNNEmotions.mlmodel in Sources */,
 				04BD10191FD7B2F300ADB6CC /* AppDelegate.swift in Sources */,
+				04E9C0541FDAF3AF0099D2C9 /* AgeNet.mlmodel in Sources */,
+				04E44C3C1FD8FD6A0090B936 /* Inceptionv3.mlmodel in Sources */,
+				04E44C441FD908910090B936 /* VideoCameraType.swift in Sources */,
+				04E44C461FD908910090B936 /* AVCaptureDevice+Extension.swift in Sources */,
+				046C37071FD8E6BB000E361E /* MainFeatureCell.swift in Sources */,
+				04E9C04E1FDAD22B0099D2C9 /* FacialAnalysisViewController.swift in Sources */,
+				04E44C451FD908910090B936 /* VideoCapture.swift in Sources */,
+				04E44C3F1FD907B40090B936 /* RealTimeDetectionViewController.swift in Sources */,
+				04E9C0531FDAF3AF0099D2C9 /* GenderNet.mlmodel in Sources */,
+				043AF5A51FD8277F003A4742 /* MainViewController.swift in Sources */,
+				04E44C371FD8F63A0090B936 /* ObjectDetectionViewController.swift in Sources */,
+				046C37091FD8E796000E361E /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +265,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +273,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +324,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +332,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
